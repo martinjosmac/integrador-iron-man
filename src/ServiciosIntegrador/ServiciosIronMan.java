@@ -54,7 +54,8 @@ public class ServiciosIronMan {
 //llamo metodo if si son usadas algunas de las partes de las armaduras
         if (i1.caminar(tiempoUsoArmadura) != 0) {
 
-//uso random para calcular un porcentaje y si esta dentro del porcentaje paso dañado a falso o verdadero segun corresponda
+//uso random para calcular un porcentaje y si esta dentro del porcentaje paso
+//dañado a falso o verdadero segun corresponda
             System.out.println("dañado-prueba");
 
             if (Math.random() < 0.3) {
@@ -64,7 +65,7 @@ public class ServiciosIronMan {
             }
         }
         if (i1.correr(tiempoUsoArmadura) != 0) {
-            System.out.println("dañado");
+            System.out.println("u5dañado");
 
             if (Math.random() < 0.3) {
                 i1.getUsoBotas().setDañado(true);
@@ -73,7 +74,7 @@ public class ServiciosIronMan {
             }
         }
         if (i1.propulsarse(tiempoUsoArmadura) != 0) {
-            System.out.println("dañado");
+            System.out.println("u4dañado");
 
             if (Math.random() < 0.3) {
                 i1.getUsoBotas().setDañado(true);
@@ -83,7 +84,7 @@ public class ServiciosIronMan {
 
         }
         if (i1.volar(tiempoUsoArmadura) != 0) {
-            System.out.println("dañado");
+            System.out.println("u3dañado");
 
             if (Math.random() < 0.3) {
                 i1.getUsoBotas().setDañado(true);
@@ -95,7 +96,7 @@ public class ServiciosIronMan {
 
         }
         if (i1.dispararGuantes(tiempoUsoArmadura) != 0) {
-            System.out.println("dañado");
+            System.out.println("u2dañado");
 
             if (Math.random() < 0.3) {
                 i1.getUsoGuantes().setDañado(true);
@@ -104,7 +105,7 @@ public class ServiciosIronMan {
             }
         }
         if (i1.escribirConsola() != 0) {
-            System.out.println("dañado");
+            System.out.println("u1dañado");
 
             if (Math.random() < 0.3) {
                 i1.getUsoConsola().setDañado(true);
