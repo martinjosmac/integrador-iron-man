@@ -14,6 +14,7 @@ public class Botas {
     public String nombre;
     public boolean dañado;
     public int consumo;
+    public int asdf;
 
     public Botas() {
     }
